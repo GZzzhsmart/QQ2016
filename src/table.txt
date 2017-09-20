@@ -1,0 +1,38 @@
+--用户账号表
+
+create table Account
+(
+	qqCode int not null primary key,
+	nickName varchar(30) not null,
+	headImg varchar(50) not null,
+	password varchar(20) not null,
+	age int not null,
+	sex char(4) not null,
+	star varchar(20) not null,
+	blood varchar(10),
+	nation varchar(30),
+	hobit varchar(100),
+	ipAddr varchar(20),
+	port int check(port >=0 and port<=65535),
+	onlinestatus varchar(4),
+	remark varchar(100)
+)
+go
+--好友表
+create table Friends
+(
+	friendId int identity(1,1) primary key,
+	myQQcode int not null,
+	friendQQcode int not null,
+	groupName varchar(20) not null
+)
+go
+--离线消息表
+create table offlineMsg
+(
+	msgId int identity(1,1) primary key,
+	myQQcode int not null,
+	friendQQcode int not null,
+	cmd int not null,
+	msg text not null,
+)

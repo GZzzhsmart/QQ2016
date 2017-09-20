@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae75631c-ac04-48d7-9cf5-e4e885b53b9d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360魔法摄像头.lnk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QQ聊天项目.pptx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/base/Cmd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/base/DBConn.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/base/SendCmd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/base/SendMsg.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/db/BaseDAO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/BqUI.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/ChatUI.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/FindUI.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/LoginUI.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/LookInfoUI.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/MainUI.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/Openweb.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/RegUI.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/ShaoRei.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/Shezhi.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/Sound.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/Sound4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/TipUi.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/UpdateMyInfoUI.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/ui/UrlUI.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/vo/AccountVo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/vo/FriendVo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/ht/vo/OfflineMsgVo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/72.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/73.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/74.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/75.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/76.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/77.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/78.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/79.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/80.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/81.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/82.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/83.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/84.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/85.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/86.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/87.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/88.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/89.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bq/90.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/0_h.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/0_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/0_l.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/0_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/0_w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/0_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/10_h.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/10_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/10_l.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/10_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/10_w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/10_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/1_h.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/1_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/1_l.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/1_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/1_w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/1_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/2_h.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/2_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/2_l.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/2_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/2_w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/2_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/3_h.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/3_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/3_l.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/3_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/3_w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/3_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/4_h.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/4_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/4_l.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/4_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/4_w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/4_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/5_h.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/5_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/5_l.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/5_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/5_w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/5_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/6_h.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/6_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/6_l.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/6_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/6_w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/6_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/7_h.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/7_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/7_l.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/7_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/7_w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/7_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/8_h.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/8_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/8_l.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/8_w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/8_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/9_h.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/9_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/9_l.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/9_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/9_w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/9_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/Chat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/s_busy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/s_hide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/s_leave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/s_online.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/touxiang.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/touxiang_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/touxiang_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head/touxiang_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/111.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/QQ.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bgmain.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bgmain2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bgreg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bgreg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bgreg4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bgreg5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dog.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/login.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/main1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/main2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/main3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/notic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/qqmain3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/qt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sendFace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tubiao.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musics/569.mid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musics/eyes on me.mid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musics/gqq.mid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musics/guang.mid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musics/nor.mid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musics/popo.mid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musics/qin.mid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/21.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/24.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/25.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/26.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/27.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo/chat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/Audio.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/Global.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/QQ信息声.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/ao.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/msg.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/ring.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/shake.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/sx.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/system.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/tweet.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/xiao.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/酷狗音乐.lnk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/table.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/base/Cmd.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/base/DBConn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/base/SendCmd.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/base/SendMsg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/db/BaseDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/BqUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/ChatUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/FindUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/LoginUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/LookInfoUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/MainUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/Openweb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/RegUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/ShaoRei.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/Shezhi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/Sound.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/TipUi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/UpdateMyInfoUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/ui/UrlUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/vo/AccountVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/vo/FriendVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/vo/OfflineMsgVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/table.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test6.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QQ2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QQ2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\QQ2016" />
+      <recent name="C:\Users\Administrator\Desktop\QQ2016\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="QQ2016" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae75631c-ac04-48d7-9cf5-e4e885b53b9d" name="Default" comment="" />
+      <created>1505872279453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505872279453</updated>
+      <workItem from="1505872283134" duration="320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="320000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/ht/db/BaseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <marker date="1498132770507" expanded="true" signature="532:573" ph="select qqcod... account" />
+            <marker date="1498132770507" expanded="true" signature="1120:1178" ph="select port account" />
+            <marker date="1498132770507" expanded="true" signature="1823:1878" ph="insert into account... " />
+            <marker date="1498132770507" expanded="true" signature="2762:2869" ph="update accou... " />
+            <marker date="1498132770507" expanded="true" signature="3688:3739" ph="select * fro... account" />
+            <marker date="1498132770507" expanded="true" signature="4762:4863" ph="update accou... " />
+            <marker date="1498132770507" expanded="true" signature="5192:5294" ph="select a.*,f... account" />
+            <marker date="1498132770507" expanded="true" signature="6559:6625" ph="update frien... " />
+            <marker date="1498132770507" expanded="true" signature="8075:8111" ph="select * fro... account" />
+            <marker date="1498132770507" expanded="true" signature="9229:9262" ph="insert into friends... " />
+            <marker date="1498132770507" expanded="true" signature="10226:10283" ph="select * fro... friends" />
+            <marker date="1498132770507" expanded="true" signature="10756:10804" ph="update accou... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/ui/MainUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1669">
+          <caret line="882" column="8" lean-forward="true" selection-start-line="882" selection-start-column="8" selection-end-line="882" selection-end-column="8" />
+          <folding>
+            <element signature="e#17372#17415#0" expanded="true" />
+            <element signature="e#19282#19316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/com/ht/db/BaseDAO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502667828429" expanded="true" signature="619:660" ph="select qqcod... account" />
+            <marker date="1502667828429" expanded="true" signature="1386:1444" ph="select port account" />
+            <marker date="1502667828429" expanded="true" signature="2291:2346" ph="insert into account... " />
+            <marker date="1502667828429" expanded="true" signature="3474:3581" ph="update accou... " />
+            <marker date="1502667828429" expanded="true" signature="4541:4592" ph="select * fro... account" />
+            <marker date="1502667828429" expanded="true" signature="5936:6044" ph="update accou... " />
+            <marker date="1502667828429" expanded="true" signature="6489:6591" ph="select a.*,f... account" />
+            <marker date="1502667828429" expanded="true" signature="8182:8248" ph="update frien... " />
+            <marker date="1502667828429" expanded="true" signature="10088:10124" ph="select * fro... account" />
+            <marker date="1502667828429" expanded="true" signature="11543:11576" ph="insert into friends... " />
+            <marker date="1502667828429" expanded="true" signature="12795:12852" ph="select * fro... friends" />
+            <marker date="1502667828429" expanded="true" signature="13454:13502" ph="update accou... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
